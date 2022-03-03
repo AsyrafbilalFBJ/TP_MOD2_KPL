@@ -16,5 +16,11 @@ namespace TP_MOD2_KPL2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string nama = textBox1.Text;
+            label1.Text = "Halo " + nama;
+        }
     }
 }
